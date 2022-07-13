@@ -1,8 +1,9 @@
 import cv2
 from cv2 import Sobel
 from cv2 import imwrite
+from cv2 import CV_16S
 import numpy as np
-img = cv2.imread("/home/tdd/python_practice/try/frogg.jpg",0)
+img = cv2.imread("filter_pra/lena_gaussian-noise.png",0)
 x = cv2.Sobel(img, cv2.CV_16S, 1, 0, ksize = 1)
 y = cv2.Sobel(img, cv2.CV_16S, 0, 1, ksize = 1)
 
