@@ -1,0 +1,28 @@
+請將這裡面的資料跟上禮拜的影片利用
+平滑：#ok
+filter: mean, gaussian, median
+kernel_size: 3^2, 7^2, 15^2
+
+total_number_result: 9 
+
+邊緣偵測：
+sobel: x, y, x+y, canny
+kernel_size: 3^2, 5^2, 7^2
+ddepth: CV_8U, CV_16S
+
+total_number_result: 24
+
+複雜型：
+filter：mean, gaussian，kernel_size: 5^2
+sobel：x+y, canny，kernel_size: 3^2, 5^2
+ddepth: CV_16S
+
+total_number_result: 8
+
+注意，kernel_size將影響gaussian裡的參數變化，請取得正常的filter
+請寫出彈性度很高的程式，不然你們會哭出來，還有儲存影像命名很重要，每個維度都是一個組合，如一張影像的邊緣偵測：4*3*2＝24 個結果，最好可以做個表格(mathlibplt)或是做個ppt之類的將影像整理好給我看
+
+幫你們算一下你們需要生成 total num. of result: 3(img)* [9(smooth)+ 24(corner)+ 8(complex)] = 123張影像
+
+你們可以討論（其實最好你們找時間大家自己聚一聚），不然你們很容易完蛋，請比較會寫程式的人跟其他人一起討論，你們是個團隊，一個人實力很強是沒有用的，因為在你們接下來的專題需要大量的溝通，跟你們自己內部的code-review，最後反而會更辛苦。
+

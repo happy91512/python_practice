@@ -1,0 +1,42 @@
+7/15 HW02: 
+Deadline: 7/22
+
+請將這裡面的資料跟上禮拜的影片利用
+Low pass：
+filter: low-pass, gaussian, Butterworth
+radius: 50, 100, 150, 200
+
+total_number_result: 12
+
+High pass：
+filter: high-pass, gaussian, Butterworth
+radius: 50, 100, 150, 200
+
+total_number_result: 12
+
+複雜型：
+low：low-pass, gaussian, Butterworth
+high： high-pass, gaussian, Butterworth
+radius: 50, 100, 150, 200
+
+total_numberresult: 144
+
+
+video:
+補充：
+* 數位影像處理吳昭正_單元四 頻率上濾波part 19 模擬影像中雜訊
+        * https://youtu.be/BnrOq89mY70
+基礎：
+* 數位影像處理吳昭正_單元四 頻率上濾波part 9 理想低通濾波器
+        * https://youtu.be/j3AJNt2P64k
+* 數位影像處理吳昭正_單元四 頻率上濾波part 10 巴特沃斯低通濾波器
+        * https://youtu.be/JVBQcJ56gWo
+* 數位影像處理吳昭正_單元四 頻率上濾波part 11 高斯低通濾波器
+        * https://youtu.be/HwLxHgJvWgo
+* 數位影像處理吳昭正_單元四 頻率上濾波part 12 三種低通濾波器比較
+        * https://youtu.be/nX00ghFwFqs
+* 數位影像處理吳昭正_單元四 頻率上濾波part 16 選擇性的濾波 頻率域中的拉普拉斯
+        * https://youtu.be/XIca8OnIs2w
+進階：
+* 數位影像處理吳昭正_單元四 頻率上濾波_part 17 同態濾波
+        * https://youtu.be/lAB4Aq81Dr
